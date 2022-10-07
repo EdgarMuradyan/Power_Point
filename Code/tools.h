@@ -16,10 +16,31 @@
     //...
 
 
+class Object {
+
+    void line();
+    void lineArrow();
+    void rectangle();
+    void oval();
+    void triangle();
 
 
 
 
+};
+
+
+class Tools {
+
+    void addPicture();
+    void addText();
+    void addObject();
+
+
+
+};
+
+// der yntacqum funqcianer kavelacnem...
 
 
 

@@ -3,33 +3,6 @@
 
 
 
-//TOOLbar
-
-
-
-//add picture
-//add text
-//add objects 
-    //cirquit
-    //arrow
-    //line
-    //...
-
-
-class Object {
-
-    void line();
-    void lineArrow();
-    void rectangle();
-    void oval();
-    void triangle();
-
-
-
-
-};
-
-
 class Tools {
 
     void addPicture();
@@ -37,17 +10,9 @@ class Tools {
     void addObject();
 
 
-
 };
 
-// der yntacqum funqcianer kavelacnem...
 
 
 
-
-
-
-
-
-
-#endif !TOOLS_HPP
+#endif //!TOOLS_HPP

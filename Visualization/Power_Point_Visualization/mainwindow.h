@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QGraphicsScene>
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -15,7 +16,17 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+
+        void on_lineButton_clicked();
+
+        void on_clearaButton_clicked();
+
+        void on_rectangelButton_clicked();
+
 private:
+
     Ui::MainWindow *ui;
+    QGraphicsScene *scene;
 };
 #endif // MAINWINDOW_H

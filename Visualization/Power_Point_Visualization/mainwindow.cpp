@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QtWidgets>
 
+ 
 
 //constructor Main Windows
 MainWindow::MainWindow(QWidget *parent)

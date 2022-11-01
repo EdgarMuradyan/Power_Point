@@ -25,9 +25,13 @@ private slots:
 
         void on_rectangelButton_clicked();
 
+        void on_testButton_clicked();
+
 private:
 
     Ui::MainWindow *ui;
     QGraphicsScene *scene;
 };
+
+
 #endif // MAINWINDOW_H

@@ -21,7 +21,8 @@ SOURCES += \
 
 HEADERS += \
     item.h \
-    mainwindow.h
+    mainwindow.h \
+    slide.h
 
 FORMS += \
     mainwindow.ui

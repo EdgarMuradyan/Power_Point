@@ -5,9 +5,9 @@ class IItem
     {
         IItem() = default;
     public:
-        virtual void AddObject() = 0;
-        virtual void moveObject() = 0;
-        virtual void removeObject() = 0;
+        virtual void AddItem() = 0;
+        virtual void moveItem() = 0;
+        virtual void removeItem() = 0;
 
     };
 class Line: public IItem
